@@ -1,7 +1,7 @@
 from numpy import sqrt, array, sin, cos, exp, pi, tan
 # в СГС #
 lamda = 1064e-7 # см
-chi = 10**-3 # (м ** 2)/с
+chi = 10**-3 # (cm ** 2)/с
 
 tau_0 = 0.0016523 # с
 
@@ -32,9 +32,9 @@ P_ref = array([160, 182, 233, 267, 293, 323])*1e-3 * 10**7  #эрг/c
 S_b = pi * (d / 2) ** 2
 
 # I_0 #
-I_0 = 2* P_ref / S_b 
+I_0 =  P_ref / S_b 
 
-sigma_0 = 1.5
+sigma_0 = 3.5
 print('sigma0',sigma_0)
 
 # Характеристика эффективности ПДВ #
@@ -42,7 +42,19 @@ G = sigma_0 * tau_relax * I_0 * dedT / (4 * eps_0 * roCp)
 # print(G*L)
 # Коэффициент отражения ОВФ-зеркала #
 re = tan (G*L) # Коэффициент отражения
-r = re**2 # Квадрат коэффициента отражения	
-
+# r = re**2 # Квадрат коэффициента отражения	
+print(G*L, pi/2)
 print(re)
-print(r)
+# print(r)
+
+
+
+p_sig = array([79, 110, 130, 147, 162, 176])
+p_obr = array([18, 23, 27, 31, 31, 33])
+
+rr = sqrt(p_obr / p_sig)
+
+from matplotlib import pyplot as plt 
+plt.plot(rr)
+plt.plot(re*2)
+plt.show()

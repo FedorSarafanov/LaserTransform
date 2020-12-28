@@ -14,7 +14,7 @@
 \pgfplotstableset{
 	create on use/rrrr/.style={
 	    create col/expr={
-	    \thisrow{obr}^2/\thisrow{sig}^2
+	    \thisrow{obr}/\thisrow{sig}
 	    }
 	},
 	create on use/rr2/.style={
@@ -39,7 +39,7 @@
 			% ymin=0,
 			% ymax=5,
 			xlabel={$I$, А},
-			ylabel={$R$},
+			ylabel={$r^2$},
 			tick style={very thick},
 		    % scale=0.5,
 		    grid=both,
@@ -62,7 +62,7 @@
 		    1000 sep={},
 		    x tick label style={scale=0.8},
 		    y tick label style={scale=0.8},
-		    % unit vector ratio*=1 100,
+		    % unit vector ratio*=1 100, 
 			% yticklabel={
 			% \pgfmathparse{\tick/0.098171875/32}
 			% \pgfmathifisint{\pgfmathresult}{$\pgfmathprintnumber[int detect]{\pgfmathresult}{}$}%
