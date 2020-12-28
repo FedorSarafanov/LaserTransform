@@ -1,0 +1,127 @@
+%!TEX root = ../vdiode.tex
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english, russian]{babel}
+
+\usepackage{misccorr} % в заголовках появляется точка, но при ссылке на них ее нет
+\usepackage{amssymb,amsfonts,amsmath,amsthm}  
+\usepackage{indentfirst}
+\usepackage[usenames,dvipsnames]{color} 
+\usepackage[unicode,hidelinks]{hyperref}
+% \hypersetup{%
+%     pdfborder = {0 0 0}
+% }
+
+\usepackage{makecell,multirow} 
+\usepackage{ulem}
+\usepackage{graphicx,wrapfig}
+\graphicspath{{img/}}
+\usepackage{geometry}
+\geometry{left=1.5cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm,headheight=15pt}
+\usepackage{fancyhdr} 
+\linespread{1.05} 
+\frenchspacing 
+\renewcommand{\labelenumii}{\theenumii)} 
+\newcommand{\mean}[1]{\langle#1\rangle}
+% \usepackage{caption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%применим колонтитул к стилю страницы
+\pagestyle{fancy} 
+	%очистим "шапку" страницы
+\fancyhead{} 
+	%слева сверху на четных и справа на нечетных
+\fancyhead[L]{\labauthors} 
+	%справа сверху на четных и слева на нечетных
+\fancyhead[R]{\shortlabtheme} 
+	%очистим "подвал" страницы
+\fancyfoot{} 
+	% номер страницы в нижнем колинтуле в центре
+\fancyfoot[C]{\thepage} 
+\renewcommand{\phi}{\varphi}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{float}
+\usepackage[mode=buildnew]{standalone}
+\usepackage{tikz} 
+% \usepackage{subcaption}
+\usepackage{csvsimple}
+\usetikzlibrary{scopes}
+\usetikzlibrary{%
+     decorations.pathreplacing,%
+     decorations.pathmorphing,%
+    patterns,%
+    calc,%
+    scopes,%
+    arrows,%
+    % arrows.spaced,%
+}
+\makeatletter
+\newif\if@gather@prefix 
+\preto\place@tag@gather{% 
+  \if@gather@prefix\iftagsleft@ 
+    \kern-\gdisplaywidth@ 
+    \rlap{\gather@prefix}% 
+    \kern\gdisplaywidth@ 
+  \fi\fi 
+} 
+\appto\place@tag@gather{% 
+  \if@gather@prefix\iftagsleft@\else 
+    \kern-\displaywidth 
+    \rlap{\gather@prefix}% 
+    \kern\displaywidth 
+  \fi\fi 
+  \global\@gather@prefixfalse 
+} 
+\preto\place@tag{% 
+  \if@gather@prefix\iftagsleft@ 
+    \kern-\gdisplaywidth@ 
+    \rlap{\gather@prefix}% 
+    \kern\displaywidth@ 
+  \fi\fi 
+} 
+\appto\place@tag{% 
+  \if@gather@prefix\iftagsleft@\else 
+    \kern-\displaywidth 
+    \rlap{\gather@prefix}% 
+    \kern\displaywidth 
+  \fi\fi 
+  \global\@gather@prefixfalse 
+} 
+\newcommand*{\beforetext}[1]{% 
+  \ifmeasuring@\else
+  \gdef\gather@prefix{#1}% 
+  \global\@gather@prefixtrue 
+  \fi
+} 
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{pgfplots, pgfplotstable}
+
+\usepackage[outline]{contour}
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % for parts
+% \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+\usepackage{pgfplots,pgfplotstable,booktabs,colortbl}
+\pgfplotsset{compat=newest}
+\usepackage{physics}
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs=true}
+\newcommand\Smat{\hat { \mathbf { S } }}
+
+\newcommand*\dotvec[1][1,1]{\crossproducttemp#1\relax}
+\def\crossproducttemp#1,#2\relax{{\qty[\vec{#1}\times\vec{#2}\,]}}
+
+\newcommand*\prodvec[1][1,1]{\crossproducttempa#1\relax}
+\def\crossproducttempa#1,#2\relax{{\qty[{#1}\times{#2}\,]}}
+
+% \def\E{\mathscr{E}_H}
+\def\Rdim{\,\frac{\text{м}^3}{\text{А} \cdot \text{с}}}
+
+\renewcommand{\vec}{\mathbf} % for parts
