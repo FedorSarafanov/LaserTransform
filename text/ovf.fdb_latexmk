@@ -1,0 +1,9 @@
+# Fdb version 3
+["pdflatex"] 1609501820 "ovf.tex" "ovf.pdf" "ovf" 1609501821
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1591545468 33301 a3134070eacafb10b1f371612ce2650d ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1595322494 2514048 938b635ef69b4d628faa9e7ce4bb96cc ""
+  "ovf.aux" 1609501820 8 a94a2480d3289e625eea47cd1b285758 ""
+  "ovf.tex" 1609501820 38546 ea6bf00df173cc7cdb7ba99febeb3300 ""
+  (generated)
+  "ovf.log"
+  "ovf.pdf"

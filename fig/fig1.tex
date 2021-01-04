@@ -1,0 +1,42 @@
+\documentclass[tikz]{standalone}
+\input{preambule.tex}
+\begin{document}
+\begin{tikzpicture}[x=1em, y=1em]
+
+\draw[->] (-8,0) coordinate (z) -- (8,0) node[above]{$z$};
+\draw[->] (0,-4) -- (0,4) node[above]{$x$};
+
+\draw[fill=black] (0,0) circle (0.5pt) node[right,yshift=-.75em]{0} coordinate (o);
+
+\draw ({180-25}:7) circle (2pt) node[left]{${E_2}$} coordinate (e2) -- (o);
+\draw ({180+25}:7) circle (2pt) node[left]{${E_1}$} coordinate (e1) -- (o);
+
+\draw[thick,->] ({180-25}:7) -- node[above] {$\vec{k}_2$} ({180-25}:4);
+\draw[thick,->] ({180+25}:7) -- node[below] {$\vec{k}_1$} ({180+25}:4);
+% \draw[interface] (-6,0) rectangle ++(11.9,-.5);
+% \draw[-] (0,-5) coordinate (mz) -- ++(0,11) coordinate (z);
+% \draw[->] (-6.2,0) node[left] {$0$} -- ++(12,0) coordinate (y) node[right]{};
+
+% \draw (5,0) node[above=0.2em] {$\rho,\, c$};
+% \draw (5,0) node[below=0.2em] {$\rho_1,\, c_1$};
+
+% \draw[->] (-6,6) -- ++(0,-10)  node[below]{$z$};
+
+% \draw[opacity=0.3] (0,0) coordinate (o) -- (120:6);
+% \draw[opacity=0.3] (0,0) -- (60:6);
+% \draw[opacity=0.3] (0,0) -- (295:6);
+% % \draw[opacity=0.3] (0,0) -- (340:6);
+
+% \draw[black,thick,latex-] (0,0) -- node[midway] {\contour{white}{$\vec{k}$}} (120:4.5) coordinate (ki);
+% \draw[black,thick,-latex] (0,0) -- node[midway] {\contour{white}{$\vec{k}$}} (60:4.5) coordinate (kr);
+
+% \draw[blue,thick,-latex] (0,0) -- node[midway] {\contour{white}{$\vec{k}_1$}} (295:3.65) coordinate (kt);
+
+\draw pic["$\theta /  2$", draw=black, -, angle eccentricity=1.4, angle radius=1.2cm]     {angle=z--o--e1};
+\draw pic["$$", draw=black, -, angle eccentricity=1.5, angle radius=1.1cm]     {angle=e2--o--z};
+
+% \draw pic["$\theta_i$", draw=black, double, angle eccentricity=1.2, angle radius=1.4cm]     {angle=mz--o--kt};
+
+
+\end{tikzpicture}
+\end{document}

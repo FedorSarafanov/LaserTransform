@@ -20,6 +20,7 @@ k_z = k*cos(teta / 2)
 # print('k',k,k_z)
 
 L = L*(k**2 / k_z / eps_0)
+print(L)
 
 # Время релаксации решетки 
 tau_relax = tau_0 / (1 + 4 * chi *k_x ** 2 * tau_0) # с

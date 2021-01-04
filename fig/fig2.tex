@@ -1,107 +1,56 @@
 \documentclass[tikz]{standalone}
-\usepackage{cmap}
-\usepackage[T2A]{fontenc}
-% \usepackage[utf8x]{inputenc}
-
-\usepackage[russian]{babel}
-\usepackage[utf8x]{inputenc}
-\usepackage{amsmath}
-\usepackage{amssymb}
-
-\usepackage{pgfplots}
-\usepackage{pgfplotstable}
+\input{preambule.tex}
 \begin{document}
-\pgfplotstableset{
-	create on use/rrrr/.style={
-	    create col/expr={
-	    \thisrow{obr}/\thisrow{sig}
-	    }
-	},
-	create on use/rr2/.style={
-	    create col/expr={
-	    \thisrow{rr}
-	    }
-	},
-}
-	\begin{tikzpicture}
-		    \begin{axis}[
-			grid=both,
-			scale=1,
-			height=8cm,
-			width=11cm,
-			% xmode=log,
-			grid style={line width=.1pt, draw=gray!10},
-			major grid style={line width=.2pt,draw=gray!50},
-			% axis lines=middle,
-			% minor tick num=5,
-			% xmin=1000, 
-			% xmax=11,
-			% ymin=0,
-			% ymax=5,
-			xlabel={$I$, А},
-			ylabel={$r^2$},
-			tick style={very thick},
-		    % scale=0.5,
-		    grid=both,
-		    grid style={line width=.3pt, draw=black!20},
-		    major grid style={line width=.1pt,draw=black!90},
-		    minor y tick num=4,
-		    minor x tick num=4,
-		    % minor x tick num=4,   
-			% xmode=log,
-			% ymode=log,
-		    % xmode=log,ymode=normal,
-		    % ytick distance=0.1,
-		    % xtick distance=250,
-		    % ytick distance=0.098171875,
-		    % ymax = 1.8,
-		    % xmin = 100,
-		    % xmax = 1000,
-		    % ymin = 0,
-		    /pgf/number format/.cd,
-		    1000 sep={},
-		    x tick label style={scale=0.8},
-		    y tick label style={scale=0.8},
-		    % unit vector ratio*=1 100, 
-			% yticklabel={
-			% \pgfmathparse{\tick/0.098171875/32}
-			% \pgfmathifisint{\pgfmathresult}{$\pgfmathprintnumber[int detect]{\pgfmathresult}{}$}%
-			% {%
-	  %          {$\pgfmathprintnumber[frac, frac denom=32,frac whole=false]{\pgfmathresult}\pi$}
-			% }{}
-			% },	
-			% yticklabel={0}			
-			% ytick={1.5707,0.7853,1,2}, 
-			% yticklabels={$\frac{\pi}{2}$,%
-			% $\frac{\pi}{4}$
-			% 1},			
-		    % xmax = 40,
-		    % ticklabel style={font=\tiny,fill=white},    
-		    % axis lines=middle, 	
-		    % xlabel style={right, xshift=1em},
-		    % ylabel style={above},	
-		    % x label style={at={(axis description cs:0.5,-0.08)},anchor=north},
-		    % y label style={at={(axis description cs:-0.08,.5)},rotate=90,anchor=south}	,
-		     % y dir=reverse
-		     % restrict y to domain=0:2,    		
-		     % restrict x to domain=0:3000,    		
-			% legend style={
-			% at={(rel axis cs:0,1)},
-			% anchor=north west,draw=none,inner sep=0pt,fill=gray!10}
-		legend style={
-			% cells={anchor=east},
-			legend pos=north west,
-		}
-		]
-	     % \xdef\C{5e-8}
-	     % \xdef\R{13000}
-		% \addplot +[mark=*, line width=1.2pt, mark size=1.1pt,  smooth,solid,blue] plot [error bars/.cd, y dir = both, y fixed=0] table [ x=u, y=i,] {../data/vax1.tsv};
-		\addplot +[mark=x, line width=0.6pt, mark size=1.1pt,solid,red] plot [error bars/.cd, y dir = both, y fixed=0] table [ x=i, y=rr,] {../data/tab.tsv};
-		\addlegendentry{Теория}
+\begin{tikzpicture}[x=1em, y=1em]
 
-		\addplot +[mark=*, line width=0.6pt, mark size=1.1pt,solid,blue] plot [error bars/.cd, y dir = both, y fixed=0] table [ x=i, y=rrrr,] {../data/tab.tsv};
-		\addlegendentry{Эксперимент}
+\begin{scope}[shift={(4,2)}]
+	\draw[->] (-.5,0) -- (2,0) node[right]{$z$};
+	\draw[->] (0,-.5) -- (0,2) node[left]{$x$};
+\end{scope}
 
-		    \end{axis}
-		\end{tikzpicture}	
+
+\draw (0,-4) node[below,xshift=.5em] {ГТ} rectangle  ++ (1,8);
+
+
+\draw (-6,-4) node[below,xshift=.5em] {ГФ} rectangle  ++ (1,8);
+
+
+
+% \draw[fill=black] (0,0) circle (0.5pt) node[right,yshift=-.75em]{0} coordinate (o);
+% 
+% \draw ({180-25}:7) circle (2pt) node[left]{${E_2}$} coordinate (e2) -- (o);
+% \draw ({180+25}:7) circle (2pt) node[left]{${E_1}$} coordinate (e1) -- (o);
+
+\draw[line width=2pt,xshift=-1cm,->,>=latex] ({180-25}:7) -- node[above] {$\vec{E}_1$} ({180-25}:4);
+\draw[line width=1pt,xshift=-1cm,->,>=latex] ({180+25}:7) -- node[below] {$\vec{E}_3$} ({180+25}:4);
+\draw[line width=1pt,xshift=-1cm,<-,>=latex] ({25}:-1) -- node[above=5pt] {$\vec{E}_4 \sim \vec{E}_3^*$} ({25}:2);
+
+\draw[line width=2pt,xshift=1cm, yshift=-1cm,<-,>=latex] ({-25}:-1) -- node[above=5pt] {$\vec{E}_2 \sim \vec{E}_1^*$} ({-25}:2);
+% \draw[thick,->] ({180+25}:7) -- node[below] {$\vec{k}_1$} ({180+25}:4);
+% \draw[interface] (-6,0) rectangle ++(11.9,-.5);
+% \draw[-] (0,-5) coordinate (mz) -- ++(0,11) coordinate (z);
+% \draw[->] (-6.2,0) node[left] {$0$} -- ++(12,0) coordinate (y) node[right]{};
+
+% \draw (5,0) node[above=0.2em] {$\rho,\, c$};
+% \draw (5,0) node[below=0.2em] {$\rho_1,\, c_1$};
+
+% \draw[->] (-6,6) -- ++(0,-10)  node[below]{$z$};
+
+% \draw[opacity=0.3] (0,0) coordinate (o) -- (120:6);
+% \draw[opacity=0.3] (0,0) -- (60:6);
+% \draw[opacity=0.3] (0,0) -- (295:6);
+% % \draw[opacity=0.3] (0,0) -- (340:6);
+
+% \draw[black,thick,latex-] (0,0) -- node[midway] {\contour{white}{$\vec{k}$}} (120:4.5) coordinate (ki);
+% \draw[black,thick,-latex] (0,0) -- node[midway] {\contour{white}{$\vec{k}$}} (60:4.5) coordinate (kr);
+
+% \draw[blue,thick,-latex] (0,0) -- node[midway] {\contour{white}{$\vec{k}_1$}} (295:3.65) coordinate (kt);
+
+% \draw pic["$\theta /  2$", draw=black, -, angle eccentricity=1.4, angle radius=1.2cm]     {angle=z--o--e1};
+% \draw pic["$$", draw=black, -, angle eccentricity=1.5, angle radius=1.1cm]     {angle=e2--o--z};
+
+% \draw pic["$\theta_i$", draw=black, double, angle eccentricity=1.2, angle radius=1.4cm]     {angle=mz--o--kt};
+
+
+\end{tikzpicture}
 \end{document}

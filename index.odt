@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:officeooo="http://openoffice.org/2009/office" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ooo="http://openoffice.org/2004/office" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
+ <office:meta><dc:title>ltransform</dc:title><dc:description>ltransform</dc:description><meta:keyword>ltransform</meta:keyword><meta:document-statistic meta:table-count="12" meta:image-count="38" meta:object-count="0" meta:page-count="1" meta:paragraph-count="72" meta:word-count="870" meta:character-count="6779" meta:non-whitespace-character-count="5909"/><meta:generator>LibreOffice/6.4.6.2$Linux_X86_64 LibreOffice_project/40$Build-2</meta:generator><meta:user-defined meta:name="distribution">global</meta:user-defined><meta:user-defined meta:name="resource-type">document</meta:user-defined><meta:user-defined meta:name="viewport">width=device-width, initial-scale=1.0</meta:user-defined></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">0</config:config-item>
+   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ContinuousEndnotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="HeaderSpacingBelowLastPara" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
+   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrintFaxName" config:type="string"/>
+   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
+   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">1245783</config:config-item>
+   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
+   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
+   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RsidRoot" config:type="int">1245783</config:config-item>
+   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="OpenSymbol" svg:font-family="OpenSymbol" style:font-charset="x-symbol"/>
+  <style:font-face style:name="Century Schoolbook" svg:font-family="&apos;Century Schoolbook&apos;, serif"/>
+  <style:font-face style:name="Droid Sans Devanagari1" svg:font-family="&apos;Droid Sans Devanagari&apos;" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Liberation Sans Unicode MS" svg:font-family="&apos;Liberation Sans Unicode MS&apos;" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Devanagari" svg:font-family="&apos;Droid Sans Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Droid Sans Fallback" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:start-line-spacing-horizontal="0.283cm" draw:start-line-spacing-vertical="0.283cm" draw:end-line-spacing-horizontal="0.283cm" draw:end-line-spacing-vertical="0.283cm" style:flow-with-text="true"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="ru" fo:country="RU" style:letter-kerning="true" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Droid Sans Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="paragraph">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:writing-mode="page"/>
+   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="ru" fo:country="RU" style:font-name-asian="Droid Sans Fallback" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Droid Sans Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:default-style style:family="table">
+   <style:table-properties table:border-model="collapsing"/>
+  </style:default-style>
+  <style:default-style style:family="table-row">
+   <style:table-row-properties fo:keep-together="auto"/>
+  </style:default-style>
+  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
+  <style:style style:name="Horizontal_20_Line" style:display-name="Horizontal Line" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="html">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false" style:border-line-width-bottom="0.002cm 0.035cm 0.002cm" fo:padding="0cm" fo:border-left="none" fo:border-right="none" fo:border-top="none" fo:border-bottom="1.11pt double #808080"/>
+   <style:text-properties fo:font-size="6pt"/>
+  </style:style>
+  <style:style style:name="Sender" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
+   <style:text-properties fo:font-style="italic"/>
+  </style:style>
+  <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="extra"/>
+  <style:style style:name="Heading_20_1" style:display-name="Heading 1" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:class="text">
+   <style:text-properties style:font-name="Liberation Sans Unicode MS" fo:font-family="&apos;Liberation Sans Unicode MS&apos;" style:font-pitch="variable" fo:font-size="24pt" fo:font-weight="bold" style:font-size-asian="22pt" style:font-weight-asian="bold" style:font-size-complex="22pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false"/>
+  </style:style>
+  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.423cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false" fo:keep-with-next="always"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="Heading_20_2" style:display-name="Heading 2" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="2" style:list-style-name="" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.353cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-weight-asian="bold" style:font-name-complex="Droid Sans Devanagari" style:font-family-complex="&apos;Droid Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_3" style:display-name="Heading 3" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="3" style:list-style-name="" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.247cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="14pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-name-complex="Droid Sans Devanagari" style:font-family-complex="&apos;Droid Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_4" style:display-name="Heading 4" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="4" style:list-style-name="" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.212cm" loext:contextual-spacing="false"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-name-complex="Droid Sans Devanagari" style:font-family-complex="&apos;Droid Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="12pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Heading_20_5" style:display-name="Heading 5" style:family="paragraph" style:parent-style-name="Heading" style:next-style-name="Text_20_body" style:default-outline-level="5" style:list-style-name="" style:class="text">
+   <style:paragraph-properties fo:margin-top="0.212cm" fo:margin-bottom="0.106cm" loext:contextual-spacing="false"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="10pt" fo:font-weight="bold" style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="10pt" style:font-weight-asian="bold" style:font-name-complex="Droid Sans Devanagari" style:font-family-complex="&apos;Droid Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="10pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Table_20_Heading" style:display-name="Table Heading" style:family="paragraph" style:parent-style-name="Table_20_Contents" style:class="extra">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false" text:number-lines="false" text:line-number="0"/>
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="List_20_Heading" style:display-name="List Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="List_20_Contents" style:class="html">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="List_20_Contents" style:display-name="List Contents" style:family="paragraph" style:parent-style-name="Standard" style:class="html">
+   <style:paragraph-properties fo:margin-left="1cm" fo:margin-right="0cm" fo:text-indent="0cm" style:auto-text-indent="false"/>
+  </style:style>
+  <style:style style:name="Endnote_20_Symbol" style:display-name="Endnote Symbol" style:family="text"/>
+  <style:style style:name="Footnote_20_Symbol" style:display-name="Footnote Symbol" style:family="text"/>
+  <style:style style:name="Internet_20_link" style:display-name="Internet link" style:family="text">
+   <style:text-properties fo:color="#000080" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Strong_20_Emphasis" style:display-name="Strong Emphasis" style:family="text">
+   <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Frame" style:family="graphic">
+   <style:graphic-properties text:anchor-type="as-char" svg:y="0cm" style:wrap="none" style:vertical-pos="middle" style:vertical-rel="line"/>
+  </style:style>
+  <style:style style:name="Graphics" style:family="graphic">
+   <style:graphic-properties text:anchor-type="paragraph" svg:x="0cm" svg:y="0cm" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph"/>
+  </style:style>
+  <style:style style:name="OLE" style:family="graphic">
+   <style:graphic-properties text:anchor-type="paragraph" svg:x="0cm" svg:y="0cm" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph"/>
+  </style:style>
+  <text:outline-style style:name="Outline">
+   <text:outline-level-style text:level="1" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="2" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="3" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="4" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="5" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="6" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="7" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="8" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="9" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+   <text:outline-level-style text:level="10" style:num-format="">
+    <style:list-level-properties/>
+   </text:outline-level-style>
+  </text:outline-style>
+  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
+  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
+  <text:linenumbering-configuration text:number-lines="false" text:offset="0.499cm" style:num-format="1" text:number-position="left" text:increment="5"/>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="Таблица1" style:family="table">
+   <style:table-properties style:width="5.392cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица1.A" style:family="table-column">
+   <style:table-column-properties style:column-width="4.658cm"/>
+  </style:style>
+  <style:style style:name="Таблица1.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица1.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица2" style:family="table">
+   <style:table-properties style:width="5.921cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица2.A" style:family="table-column">
+   <style:table-column-properties style:column-width="5.188cm"/>
+  </style:style>
+  <style:style style:name="Таблица2.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица2.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица3" style:family="table">
+   <style:table-properties style:width="13.229cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица3.A" style:family="table-column">
+   <style:table-column-properties style:column-width="12.495cm"/>
+  </style:style>
+  <style:style style:name="Таблица3.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица3.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица4" style:family="table">
+   <style:table-properties style:width="0.935cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица4.A" style:family="table-column">
+   <style:table-column-properties style:column-width="0.935cm"/>
+  </style:style>
+  <style:style style:name="Таблица4.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица5" style:family="table">
+   <style:table-properties style:width="6.391cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица5.A" style:family="table-column">
+   <style:table-column-properties style:column-width="5.657cm"/>
+  </style:style>
+  <style:style style:name="Таблица5.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица5.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица6" style:family="table">
+   <style:table-properties style:width="5.334cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица6.A" style:family="table-column">
+   <style:table-column-properties style:column-width="4.6cm"/>
+  </style:style>
+  <style:style style:name="Таблица6.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица6.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица7" style:family="table">
+   <style:table-properties style:width="2.282cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица7.A" style:family="table-column">
+   <style:table-column-properties style:column-width="1.549cm"/>
+  </style:style>
+  <style:style style:name="Таблица7.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица7.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица8" style:family="table">
+   <style:table-properties style:width="1.309cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица8.A" style:family="table-column">
+   <style:table-column-properties style:column-width="0.575cm"/>
+  </style:style>
+  <style:style style:name="Таблица8.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица8.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица9" style:family="table">
+   <style:table-properties style:width="0.369cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица9.A" style:family="table-column">
+   <style:table-column-properties style:column-width="0.369cm"/>
+  </style:style>
+  <style:style style:name="Таблица9.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица10" style:family="table">
+   <style:table-properties style:width="4.561cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица10.A" style:family="table-column">
+   <style:table-column-properties style:column-width="3.828cm"/>
+  </style:style>
+  <style:style style:name="Таблица10.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.734cm"/>
+  </style:style>
+  <style:style style:name="Таблица10.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица11" style:family="table">
+   <style:table-properties style:width="1.358cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица11.A" style:family="table-column">
+   <style:table-column-properties style:column-width="0.416cm"/>
+  </style:style>
+  <style:style style:name="Таблица11.B" style:family="table-column">
+   <style:table-column-properties style:column-width="0.942cm"/>
+  </style:style>
+  <style:style style:name="Таблица11.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="Таблица12" style:family="table">
+   <style:table-properties style:width="12.564cm" table:align="center"/>
+  </style:style>
+  <style:style style:name="Таблица12.A" style:family="table-column">
+   <style:table-column-properties style:column-width="12.564cm"/>
+  </style:style>
+  <style:style style:name="Таблица12.A1" style:family="table-cell">
+   <style:table-cell-properties style:vertical-align="middle" fo:padding="0.049cm" fo:border="none"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph" style:parent-style-name="List_20_Contents">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.499cm" loext:contextual-spacing="false"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
+   <style:text-properties fo:font-size="2pt" style:font-size-asian="2pt" style:font-size-complex="2pt"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+   <style:paragraph-properties fo:text-align="end" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Text_20_body" style:master-page-name="HTML">
+   <style:paragraph-properties style:page-number="auto"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1"/>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:text-align="center" style:justify-single-word="false"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties style:font-name="Century Schoolbook"/>
+  </style:style>
+  <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
+   <style:graphic-properties style:vertical-pos="top" style:vertical-rel="baseline" style:mirror="none" fo:clip="rect(0cm, 0cm, 0cm, 0cm)" draw:luminance="0%" draw:contrast="0%" draw:red="0%" draw:green="0%" draw:blue="0%" draw:gamma="100%" draw:color-inversion="false" draw:image-opacity="100%" draw:color-mode="standard"/>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-bullet text:level="1" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="0.748cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="1.995cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="3.242cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="4.489cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="5.736cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="6.983cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="8.23cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="9.478cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="10.725cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:style-name="Bullet_20_Symbols" style:num-suffix="." text:bullet-char="•">
+    <style:list-level-properties text:space-before="11.972cm" text:min-label-width="0.499cm"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties fo:page-width="21.59cm" fo:page-height="27.94cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties fo:page-width="21.59cm" fo:page-height="27.94cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="2cm" fo:margin-bottom="2cm" fo:margin-left="2cm" fo:margin-right="2cm" style:writing-mode="lr-tb" style:footnote-max-height="0cm">
+    <style:footnote-sep style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+  <style:page-layout style:name="pm3">
+   <style:page-layout-properties fo:page-width="21.59cm" fo:page-height="27.94cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1cm" fo:margin-bottom="1cm" fo:margin-left="2cm" fo:margin-right="1cm" fo:background-color="transparent" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.706cm" style:layout-grid-ruby-height="0.353cm" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" draw:fill="none" draw:fill-color="#99ccff" style:footnote-max-height="0cm">
+    <style:footnote-sep style:width="0.018cm" style:distance-before-sep="0.101cm" style:distance-after-sep="0.101cm" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
+   </style:page-layout-properties>
+   <style:header-style/>
+   <style:footer-style/>
+  </style:page-layout>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
+  <style:master-page style:name="Endnote" style:page-layout-name="pm2"/>
+  <style:master-page style:name="HTML" style:page-layout-name="pm3"/>
+ </office:master-styles>
+ <office:body>
+  <office:text>
+   <text:sequence-decls>
+    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
+    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
+   </text:sequence-decls>
+   <text:p text:style-name="P5"><draw:frame draw:style-name="fr1" draw:name="Изображение1" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img1.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAACIAAAAPCAYAAACBdR0qAAABbUlEQVR4nM2V4W2EMAyFi3T/
+       YQRGYAMYoSN0BDag3YARGIERYANGYAQ6AeVDeicT5e6c9k+fhEiC7Tw/O+G27/vbf8DNaziO
+       4/uBkfEwDB8HhpSN5LNtW7EsS9U0zZRMhCBVVS2ar+ta8iZg27b9PM91nuff1oa1ruu+Pg9Y
+       n6IoNpGx9i+JyCmmAIGmaWqyLNs11jcUtHMLlCUeCbqJ2JJ4QOY8+NiNQpQlZmvJ+0KErMkA
+       BTCAMXVkre/71kMCX22OL0k8stV3SnshwuZaDDOkrq9IYAfhFAUhrvGFCIH09gSyQGIaUyqy
+       hjqQiiUS9tRJhAUC2C7+LYijo/nsmNMKdn4SUU9YI5EiUyT0lMfCo6oa9U4E+ZBVF429bCR1
+       rO66R+q6nmVrv4dzC2La5E8iZKuLJ4RIxoiEdU6BPbp3Is8ASTYMb8K/gN4JT6jrikdCjqXt
+       m9TN5UO/MQ6Tcv/0bGlSf3jWB4VjvfMDcCogaUAsEogAAAAASUVORK5CYII=
+      </office:binary-data>
+     </draw:image>
+     <svg:title>\begin{center}\vbox{\input{text/titlepage}}\end{center}</svg:title>
+    </draw:frame><text:s/></text:p>
+   <text:p text:style-name="Text_20_body"/>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="SECTION00010000000000000000"/>Содержание </text:h>
+   <text:list xml:id="list1970590460" text:style-name="L1">
+    <text:list-item>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P8"><text:bookmark text:name="tex2html15"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00021000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Метод обращения волнового фронта</text:a> </text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P8"><text:bookmark text:name="tex2html16"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00022000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Нелинейность жидких кристаллов</text:a> </text:p>
+      </text:list-item>
+     </text:list>
+     <text:p text:style-name="P8"/>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P8"><text:bookmark text:name="tex2html17"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00030000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Эксперимент</text:a> </text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P8"><text:bookmark text:name="tex2html18"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00031000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Зависимость мощности пучка от тока накачки</text:a> </text:p>
+      </text:list-item>
+     </text:list>
+     <text:p text:style-name="P8"/>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P8"><text:bookmark text:name="tex2html19"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00040000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Задания</text:a> </text:p>
+     <text:list>
+      <text:list-item>
+       <text:p text:style-name="P8"><text:bookmark text:name="tex2html20"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00041000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Время релаксации</text:a> </text:p>
+      </text:list-item>
+      <text:list-item>
+       <text:p text:style-name="P8"><text:bookmark text:name="tex2html21"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00042000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Коэффициент отражения</text:a> </text:p>
+      </text:list-item>
+     </text:list>
+     <text:p text:style-name="P8"/>
+    </text:list-item>
+    <text:list-item>
+     <text:p text:style-name="P6"><text:bookmark text:name="tex2html22"/><text:a xlink:type="simple" xlink:href="ltransform/ltransform.html#SECTION00060000000000000000" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">Литература</text:a> </text:p>
+    </text:list-item>
+   </text:list>
+   <text:p text:style-name="Heading_20_1"><text:bookmark text:name="SECTION00020000000000000000"/>Введение </text:p>
+   <text:p text:style-name="Text_20_body"><text:line-break/>В данной работе исследуется преобразование структуры лазерного излучения. Рассматривается два метода: метод попутного двухволнового взаимодействия и обращения волнового фронта при четырехволновом смешении, основанные на интерференции монохроматических волн в нелинейной среде <draw:frame draw:style-name="fr1" draw:name="Изображение2" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img2.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAZklEQVR4nGP5//8/Az7AAmNc
+       uHDBYMOGDQEw9oQJEwoUFBQeoChoAAKcJnz48EGgoKBggoCAwAdkhWAFBw4ccACCAwYGBhew
+       mgDSDVKAbB1MMVgBiBMQELABJghio5gAci3MB+gAAAgbMf6eqRZRAAAAAElFTkSuQmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\varepsilon(\vert\vec {E}\vert)$</svg:title>
+    </draw:frame>. В такой среде не выполняется принцип суперпозиции, а распространение волны в такой среде можно рассматривать как самодифракцию на периодической структуре <draw:frame draw:style-name="fr1" draw:name="Изображение3" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img3.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAADUAAAAkCAYAAAApbHJOAAADCElEQVR4nN2YP44aMRSHI7FK
+       yaIUqSi4QCSOkAaUDm4AR4ATJJwgHIHcgO3QbsMRkLgARSoKBJRIEeFb6YfeWp5hZ8Zrb/KT
+       RmN7PH++ec/Pz747n88f/jfdpXjparVqz+fzfqPR2LdarQ1Hu91ehXp+Eihgfly03+8bm82m
+       FRIIJYHCMpyB8wEBy7Wyz48ONZ1OR+Px+OdgMPglOKy1XC6/csY1KY9Goyl19Smi6FD9fn8O
+       1Gw2G9p2YDkDwkGdvmXeER0KK/R6vQfVZQ25IZbC9TjoOxwOZ0XfkQTqoqXKjB+g1EYAITKW
+       tRJKBoX7cQDg9qkChKJC4WpYRi6FhXAz2mSxEO+JCmVdD6mMxYh2WffJovTP6yclhVJb3j1A
+       cI/PTbMUDYq/LXcTiM76+7ggbYp+RESlUUBRp51wbydwdwxGg/KFZtdq9JFFAO12u49yTYD4
+       eF1XxCRaUrdgL6A0kHlA2dm8ini3yljgeDzWbbrEdeYxew9gWNcLJdNT5u/QKTYUP1N5Hz8V
+       Cy0Wi2+ClUtiLbX5gswVihvKzN4hxViRe1Hmm+xcZoMFUNRxP/fnX6Hs+kauF9tSyDfx2ja5
+       YJ4RnqHohFnpBLmyZdesWtxlfZAGcxmY1wqYW+H9hfvxF9yIZMVHl1nQnU6nj+v1+kvR+4qo
+       Vqv90bc9Q2nw5QEhLQuyrmct+rbb7edOp/NU5aNvqV6vH/VtV0v5ZvtQajabv3e73SfbJhfH
+       XeX+od53heIlt6BCBg9lDkqD3gSqSG4VQopcbxFYkqynspJYLBZiCESHUlqDu9t9CsH+k1BI
+       AcK2AWNzvypKAoVFtHtk9yNCRd/oUMqy5X6cBVVlA9MqSaAAQkFBFqu6K2uVDEp1hXbbXnUt
+       lwRK1kFKUJV7klAzIQM7mUy+XzQBkLrdq6CupYp9HooGBQxj6HA43NtQrnxS15W1qI+W7QJX
+       5kGZdp9Fo0FpDLl76FZa8aquEE9wsfsXVkmhXiMlt1quu4tDABQ97WLWfc67gkLaHfLVrZXz
+       LP4XT/KSnHDS390AAAAASUVORK5CYII=
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\varepsilon$</svg:title>
+    </draw:frame>, которая порождается распространяющимися в нелинейной среде волнами. </text:p>
+   <text:p text:style-name="Text_20_body"/>
+   <text:h text:style-name="Heading_20_4" text:outline-level="4"><text:bookmark text:name="SECTION00020010000000000000"/>Установка. </text:h>
+   <text:p text:style-name="Text_20_body">Для исследования ОВФ при четырёхволновом взаимодействии используется установка, общий принцип который заключается в разделении излучения основного лазера на опорное и сигнальное с помощью системы зеркал, поляризаторов, линз и направлении их с помощью фокусирующей линзы в НЖК-ячейку с зеркальным покрытием на обратной стороне, формирующим встречную волну накачки. В установке имеются два фотоприёмника, позволяющие измерить мощность опорного, сигнального и обращённого пучков. </text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="SECTION00021000000000000000"/>Метод обращения волнового фронта </text:h>
+   <text:p text:style-name="Text_20_body">Суть метода ОВФ заключается в создании пучка с обращённой фазой. Это можно объяснить на следующем примере: пусть через неоднородную среду, дающую фазовые искажения, проходит пучок. Он исказится. Если за средой поставить обычное зеркало, то пройдя еще раз через нелинейную среду, пучок исказится еще сильнее: если же поставить ОВФ-зеркало, то при выходе из среды отражённый пучок будет не искажён. </text:p>
+   <text:p text:style-name="Text_20_body">Важной характеристикой ОВФ-зеркала является коэффициент отражения </text:p>
+   <table:table table:name="Таблица1" table:style-name="Таблица1">
+    <table:table-column table:style-name="Таблица1.A"/>
+    <table:table-column table:style-name="Таблица1.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица1.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение4" text:anchor-type="as-char" svg:width="4.491cm" svg:height="0.69cm" draw:z-index="0"><draw:image xlink:href="ltransform/img4.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAMIAAAAeCAYAAAB+HcFlAAAH3UlEQVR4nO2cvUskSRjGL5hE
+          UDT0IhUODFUQU/UfOM/IUI0uVANjMd5ADY3U8CI//gE1PYTT8EBQIy9UPLjkwN0f7LM8W1v9
+          MTM90z1jPyDT011d9Va932/V2Hh/f/+pRo2PjkbZBHx0nJ2d/fYFZ2XT0StgvR4fH8cPDg42
+          Li8vF8fHxx+L6LdWhBIBU2ForQj5cXd3N7Wzs7O7ubm5X2S/tSKUhJeXlxGYWjYdvYaxsbGn
+          /f39zVoR+gTHx8dr8/Pz11dXVwu6h3LgIcK2S0tL59PT07dc0/76+nren2MhO01vVTAyMvKy
+          tbW1t7CwcKU1ub29nT45OVnlGd9bWY9aEUoAjCMcItb1+1IOBN0/FQfz/OnpaYx7u7u7O6ur
+          qycSBvrij+8SiH4DCoCQ7+3tbWEwjo6O1pkzBoR7tAnXNC/6VhFYEASIRaqSYEAPtIWKwH3c
+          vRgLzQg8lo/n3EcxYD7fuWZ+CD7PyDd4f319/QihSJuz+q/a2qQBI0BYBL3MGw+gZxgW8Vvr
+          lYSkObelCPf397+8vr4O6/vg4OC/k5OTf7fTZxYIDRRfu6A4sJZ80o7FKzqezEsnzMGCY7ll
+          1WEajOA519DIteaBQK+trR3z6RURGE+IpO/0re+0lWeYmpq6Ux8hTYzFM+UmrF+VEnXoY034
+          47vz7fz8fElWH2i9aMtcpQhp/SMXjMF1OPee8wgIBFaRSczMzPz1BTNhm7JjZhZbjEPIYYAs
+          eai4tPN7WHoEAAUK+5UlEzMl/G6MuBfmEP5+TEGqAsIdlFuezQ2EPAHXrNnGxsaB3uOZh4hJ
+          CpEmF1FFkOVIWzRP8oS3t7eh5+fnn7PcUx4kxbyaTMzF6Z1YfyxOUTVnh6y6zxm6xCiexcaF
+          TvcOvM+nW3avKtEf4QH9eUwcQkoSGy9pbbqdV8jyhzzBc7qy+zP4jkHBknveRDtyB94bHh5+
+          jclsHrmIKgILrsw8TXiWl5dPIVDMgyiIjVnpVgANp6eny84k0cM4MWHAWiBQ/ox79FGEp4CB
+          StR0D+v18PAw4e2Un4Qu3Z9j+dz9s95SKDyeu27oTwrxUBopgELGsA3P8aZ8ujVlLnwvwng1
+          gxhPvCiAZ3DZ4zrGPwl+Vr7D3FEG7wMaFDr/oAhaUAZwlx4C4VeC5/ezsvaYBY1BghRTROrI
+          TCgcS20RIO+faxY3bby8YN6hYMfmAu2MSVt5tiLGj4H5siZ4caxijB4l1WUIfQgl6p7zCPKS
+          Kibk9eJpSqA+GM/nzpooH/lBEbCmKAGETkxMPCBwMWI8ftME6DhP1p4+pXj/WhQlPFgy7oWK
+          6t7A+yiC+QpLfD0YQxZYc4MpeAnWA3qxOp1UBJCnIACteFiutZ6dChnz0CLeSXbkbVUVSgr/
+          Wh1PntDlQnOPegQYqcQqySuofKfqh0p5RTFcNXTF0gq53O2HFkWxJ9dYR09E22W2qjv06cYB
+          OmGYqh08Z708/ChD0EJAO3TII4vuJNpiOaCjHcPipW2tqTYNyRNo43lAu1COoNyXuUO/5Jw2
+          3ylCeAAMhid5BVleVSmKdreuwdCk8dPGkaYr8SwyAdQmGArp/XpSrzo2z8sOP0LAI4WM8Jm8
+          oixaVBRQQUZeyStDRY+nuSfJxXeKECYcEBXzCrK8YjbarLjP7wuq6wPF9V7iQ+BjFSASPz5x
+          +3k8jSukBFILEdJEv74pE8Jr/+pPLlz9Kp5lXObOYmcp38XFxa8UAbLm0i6Ghobe5B2BGxbm
+          ojAu6fRrK4ocO/7hUKKqNvAXOvLwdmVl5Y+bm5vZvLQwd9ZA4ymS8AKQy8U3RUhakJhXCIVd
+          E0kquXqmLpebx7Lz3uLi4qVylixrEVaLlNDH8pKkKkQatKkl1854KAz0saeRJ8Gbm5v78/Dw
+          8Pdmxm0FjUbjf//u+YFCAoVLsffdeMUQM15e9UoD41Jlo5igqpXoSnpne3v7U978EgwMDPzn
+          44WhqkIl3fumCDA56TQkL0KwhIzrMJFNs67NwjVYTMva11CMLroUf+rcehF00T/KIwFSnM0z
+          xbxZijA6OvoPf0XQkxcInHsyxcrE5lKOEJ3alPT1gR42DrN4C2ZnZ29aGU/HL7zED/+QV597
+          Qw9dY0IglB5mePbtbYpKlL0vGJK1UNJuBN5pguYiKw/aKZbn9PCJNYGOquUGKmSIdt3XvTJo
+          0rhax04VE5qRi4Ye5GVgu4xWuJJ3jDyVqG6VAENaPJSsmgIInS7bNouQT50869SMXHT9rJGX
+          rGrUqAp67tBdP0K1dO22pllJVa78HjlA1nGYfoB267WHRdhclFGtFaFkKHaN/bBE8b2Y7cet
+          HRQ5ytoh7iZQAnJFyukeXisXaCcMrBWhZGj/RZUdMZPypU6c+tEVCbv/bjc8oNavUMnXc1pV
+          C/Gi7M+0WgCoFaFk+HFkCbM2JnXilFO+vgkWoorVqqKhzcEwx1RZX/ebOajnqBWhZIQVOymB
+          u3k/Ys2n4mSURGeHukt194GAewldpyC4Hx55qRWhB4FAi5kw18/Xh20Renb5aYOisJvNe0Vt
+          GFYZI1//e4UOYiLsRZZea0UoGTq56gfOdHybaz9aEgp82T9J7SYWvv77FtbKj5zrdxba2W81
+          Ya4VoQIImYdSsGutH9qn7fp/JMQ2flkbjktwmlb/5aKVvmtFqCgUIlXpv0xUEa0cnozhM6uR
+          mI9JWHo2AAAAAElFTkSuQmCC
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle \tilde{r} = \frac{\tilde{E}^*_\text{обр}}{\tilde{E}_\text{сиг}}$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица1.A1" office:value-type="string">
+      <text:p text:style-name="P4">(1)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">ОВФ при взаимодействии четырех волн (обращённая, сигнальная и опорные волны) в среде с тепловым механизмом нелинейности (нематические жидкие кристаллы к ним относятся) описывается уравнениями поля </text:p>
+   <table:table table:name="Таблица2" table:style-name="Таблица2">
+    <table:table-column table:style-name="Таблица2.A"/>
+    <table:table-column table:style-name="Таблица2.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица2.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение5" text:anchor-type="as-char" svg:width="5.02cm" svg:height="0.801cm" draw:z-index="0"><draw:image xlink:href="ltransform/img5.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>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
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle \Delta \bar{E}+k^{2} \tilde{E}-i k^{2} \frac{4 \pi \sigma_{0}}{\v......} \omega} \tilde{E}=-k^{2} \frac{\delta \varepsilon}{\varepsilon_{0}} \tilde{E}$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица2.A1" office:value-type="string">
+      <text:p text:style-name="P4">(2)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">и диэлектрической проницаемости </text:p>
+   <table:table table:name="Таблица3" table:style-name="Таблица3">
+    <table:table-column table:style-name="Таблица3.A"/>
+    <table:table-column table:style-name="Таблица3.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица3.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение6" text:anchor-type="as-char" svg:width="12.328cm" svg:height="1.85cm" draw:z-index="0"><draw:image xlink:href="ltransform/img6.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>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
+          AABJRU5ErkJggg==
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle \frac{\delta \varepsilon}{\tau_{0}}-\chi \Delta \delta \varepsilo......n}{\partial T}\right)_{p} \overline{\vert\vec {E}\vert^{2}}^{(2 \pi / \omega)}.$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица3.A1" office:value-type="string">
+      <text:p text:style-name="P4">(3)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">Здесь записаны уравнения для поля четырёх волн </text:p>
+   <table:table table:name="Таблица4" table:style-name="Таблица4">
+    <table:table-column table:style-name="Таблица4.A"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица4.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение7" text:anchor-type="as-char" svg:width="0.699cm" svg:height="0.342cm" draw:z-index="0"><draw:image xlink:href="ltransform/img7.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAB4AAAAPCAYAAADzun+cAAABaUlEQVR4nMWUYY2EQAyFlwQB
+          SEACDkDCSkACEk4CEpCABNYBEpCAA45vk5eUbhl2735sEwJ0Xvte25nJt227fcNy75jnuVrX
+          tSjLcuG5SjCO43238WydXORsmmY6JQZQFMXKe5qm5me3FOkwDG1VVXMKQz6RW+yBGMCyLGXb
+          tkMqma3kHSwdAYfQkJh2oIo3SlPJrlrsjbFRlMZ3IEYRybqu66VObbfdQBjEPDYeLPGqkBjN
+          VjHkPhDjUECWZZuIIRXYGkkjH+IQAInfIzbmSSxw3/cd/3VdP2wAfjBaV+s8MVWRPNqYjBD/
+          C7Hf7qqWLkQkxEQV0yk6xLfdJxRmsU9iCxBZJMgeCb/5IIKQURGHAF+1LSBXGwBDylszRQDB
+          ugCsCNbAy8c3ZDyMxJOybo9ebhP51lHV2SUiUSJWPMmjs22P0oH4U0MUnfI3UmSau/X9mRij
+          Mo5Nilj3vsf8ixi7ur3oTHRifgGSl0dJRpQbyAAAAABJRU5ErkJggg==
+         </office:binary-data>
+        </draw:image>
+        <svg:title>\begin{equation*}\begin{aligned}\tilde{E} &amp;=\left[\tilde{E}_{1} \exp \left(i k_...... k_{x} x\right)\right] \exp \left(i k_{z} z\right).\end{aligned}\end{equation*}</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">Не будем останавливаться на подробном исследовании этой системы уравнений, опишем только общую схему получения интересующего нас комплексного коэффициента отражения. Будем рассматривать случай, когда основной вклад в эффект ОВФ дают пропускающие решетки, возникающие за счет попутных волн. При этом можно искать <draw:frame draw:style-name="fr1" draw:name="Изображение8" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img8.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>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
+       gwcmPQAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\delta \varepsilon (z)$</svg:title>
+    </draw:frame><text:s/>в виде суммы ММА </text:p>
+   <table:table table:name="Таблица5" table:style-name="Таблица5">
+    <table:table-column table:style-name="Таблица5.A"/>
+    <table:table-column table:style-name="Таблица5.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица5.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение9" text:anchor-type="as-char" svg:width="5.489cm" svg:height="0.919cm" draw:z-index="0"><draw:image xlink:href="ltransform/img9.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>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
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle \delta \varepsilon(z) \cong \delta \varepsilon^{\prime \prime}(z)......ta \tilde{\varepsilon}(z) \exp \left(2 i k_{x} x\right)+ \text{ к.с.}\right].$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица5.A1" office:value-type="string">
+      <text:p text:style-name="P4">(5)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">Подставляя это выражение в уравнения поля, получим систему, которую можно привести к безразмерному виду и дополнить граничными условиями неравенства нулю полей всех волн, кроме обращённой, на границах среды, вызывающей ОВФ-эффект. </text:p>
+   <text:p text:style-name="Text_20_body">Далее следует принять приближение о том, что мощность накачки много больше мощности сигнала и обращённой волны и считать поля накачек заданными. Тогда система уравнений разделяется на независимые уравнения для сигнальной и обращённой волн. Такую систему оказывается возможно разрешить аналитически найдя первый интеграл и перейдя к неоднородному уравнению для КА сигнальной волны. </text:p>
+   <text:p text:style-name="Text_20_body">В итоге в приближении слабого поглощения средой и равноинтенсивных накачках выражение для коэффициента отражения по интенсивности </text:p>
+   <table:table table:name="Таблица6" table:style-name="Таблица6">
+    <table:table-column table:style-name="Таблица6.A"/>
+    <table:table-column table:style-name="Таблица6.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица6.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение10" text:anchor-type="as-char" svg:width="4.433cm" svg:height="0.647cm" draw:z-index="0"><draw:image xlink:href="ltransform/img10.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>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
+          rkJggg==
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle r^2 = \tg^2\qty(\frac{\sigma_0 I_0}{4\varepsilon_0 \rho_0 C_p}\frac{\tau_0}{1+4\chi k_x^2 \tau_0} \qty(\pdv{\varepsilon}{T})_p \cdot L)$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица6.A1" office:value-type="string">
+      <text:p text:style-name="P4">(6)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="SECTION00022000000000000000"/>Нелинейность жидких кристаллов </text:h>
+   <text:p text:style-name="Text_20_body">В нашей работе в качестве нелинейной среды используются жидкие кристаллы в нематической фазе. Суть жидких кристаллов в наличии фазы, в которой сочетаются признаки жидкости (текучесть) и кристаллического вещества (анизотропия) – метафазы. Молекулы ЖК при этом вытянуты (или сплющены) и ориентируются определенным образом, что пораждает выделенное направление (присуще кристаллам) - директор. Такое состояние возможно не всегда: при повышении температуры ориентация исчезает, при понижении - вещество переходит в твердый кристалл. </text:p>
+   <text:p text:style-name="Text_20_body">Наибольший интерес в нашей работе вызывает тепловой механизм нелинейности ЖК. Фазу, в которой есть выделенное направление - называют нематической: для неё характерно </text:p>
+   <table:table table:name="Таблица7" table:style-name="Таблица7">
+    <table:table-column table:style-name="Таблица7.A"/>
+    <table:table-column table:style-name="Таблица7.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица7.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение11" text:anchor-type="as-char" svg:width="1.381cm" svg:height="0.413cm" draw:z-index="0"><draw:image xlink:href="ltransform/img11.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAADwAAAASCAYAAAAHWr00AAACOklEQVR4nOWXr24CQRDGK1Bn
+          rklfoApdBQZB0pDgegaPQvMATWgTHuB01fkacE0akhM1rTpddS9AAgZL+YkvmTv2+FPuSGi/
+          ZMPO7N3OfDOzs0dtvV5f/SfUXMo0TW8Zi8XimtHv96Mz+1Ua4LFBKtlJOAzDIYP5cDgMIb3B
+          4iwelowgCCZJktxJdhImo3EctyXzwgZJFEV9yLMJcuXenojJZBLkE7VFGHIQU4Yhx5yXyTY6
+          yqQKBwmybFk9OsqSYLfb7diWaBHypSxsEX7aQGQxoEwyR4/BKrIrB6fT6YPVE3yyROCR+SUg
+          +GNLVWAPnmdN71g4S1qRUaaJvCKLoZPZ7bCZh60sgH0FB59c77AOafzmefnP2hZhCCqqNpvo
+          VVJFhqoAzlJ1VldUrgJrDFsJhYR50HUN2SjvAwGTMfay+6F3lVoRlsul/9sjhJ28rQzhTqfz
+          fsyGzWbzczweP1qd7m81HsgTLGXpWMK+7y/LvBYzhHu93ut8Pr9hrFYrr16vf3uet5rNZvfI
+          9ln0rVbrI7+hri3JZJeSUpbz5bkPZNeWJDikSxchQ3gwGLzgGFlBJjPIjUbjC8PIGIYQjne7
+          3TeXgy5d/qo5FNjUNaiGWRphoK7MpkRWjYo120COKctDwN6M0Wj0jA01R11DDIj/NnBChjAE
+          2RCDajoiq+jqLJV9F+/q/mUGN0NY5405xCwpe5ddMjKEbSfkHNsG8ycJ28825moO+mJhfsn/
+          nECGcNHHxbm/rqrEDyUKxnkNOzuyAAAAAElFTkSuQmCC
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle \pdv{\varepsilon}{T} \approx (m_1+m_2\cdot h) \pdv{\rho}{T} +m_2 \rho \pdv{h}{T}.$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица7.A1" office:value-type="string">
+      <text:p text:style-name="P4">(7)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">При температурах вдали от температуры фазового перехода <draw:frame draw:style-name="fr1" draw:name="Изображение12" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img12.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAAkAAAALCAYAAACtWacbAAAAj0lEQVR4nIWQWw3AIAxF94EA
+       JCABCUhAwiQgYRKQgAQkIAEJSMAB21nShL2yJk2bcrhcqsYYy18oaVprZjvCe5/JV8gY07TW
+       nfqpRJRSXIwxfEK9d41SztnTW2sreYFQAcIP/kIIkQsPiAP5hKhcoFqrFT8oOOfKq6f7B6jA
+       SobzbngqpbTK7ISgZ3mAeQU7wAJW6kS+Lf8AAAAASUVORK5CYII=
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\pdv{\varepsilon}{T} \sim 10^{-4}$</svg:title>
+    </draw:frame><text:s/>K, вблизи же за счет температурной зависимости параметра порядка <draw:frame draw:style-name="fr1" draw:name="Изображение13" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img13.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAIgAAAAPCAYAAAA/D4cyAAADoklEQVR4nO2Y0a0aMRBF88E/
+       UEHoAFIBoQKgAkIFgQoIFRAqACoAKgAqgHQAFYRUQPY86aLBsmGXdbIP6V0JsWt7Z8Yz1zO2
+       S5fL5dMHPhBCqWgDXhHn87lyPB5rjUbjkPabw+HQ4N9+M5/PvyWYx7bvHrbb7dcEW9vGfGjn
+       mb5KpXJWX8kOGg6HE55ns1k/tmE4tN/vzzBgNBqNY8sP6Wu32+vBYPAzpuzpdPo9wZTn1WrV
+       4Z15oZOg/0igvslkMoQcp9Ppc4ITgcAefE0gGM9/p9NZ5bWr2+0ukVWr1Y7oIabIFQH2+/0X
+       +rFL+ujDT8vlsiv7+V79V4LwYb1e/2XZExMoZfU0m81dXll2gvf08XNXS17gaAItP+HUzWbT
+       kl28awEwV2zgGYLwg7C84+sE9XK5/CdLJgoBvb1ebyG/QErelaHG4/GIf3QtFouexkFuxvGM
+       rbxDFsm9KTG73a4J4/MaGwLOjSEfx6ZZcTgphvMtcK4yrFtm8J9LSBFExNA737F6ySbIyWsX
+       c7U+cX0NIfUMcbXIIKjIzjfYJRvBDUEwFEUMhO0xSwHOUKpDT2z5LuR0pXB0x6j3yNGzspTe
+       3aCILO44YAPh9j0DSw5iqFLj60c3mYI2CApZ+NFO6eR72V6yQq2gVqu18QWQcev1uh0ylPTr
+       C4TYKcXVavW35CNTjo9VEtCHg2QL87F2PdogYo+v3FqCuO3WsWnwr8q5byNqgV8Ub2DJ45L1
+       ShCEauMFQo4gyM+kbdKvap2bmknbrDxY7JscwSTjWFttP+nbtQl9loDuSmcFhQhCveYbW4uF
+       0Gp/FJSswEf4JdSPL0O2MHeVtLy4EsTuPwgUk/WtIhzB2JDAexlEAUM+E9Cqkw7+cYrraJ+8
+       R+UJfdor8Ezd1Xzco5xPdmiBhPYLvv1HHhD8Z0twrL0euCkxYiQlhGxCIN3g4ISsjpCzFRTk
+       Ezw3EyBXu+08IIh2daGPbIC+tMfJEIFC7TGDkge+/YeLLHc4bwRxN3CstqwXQfegI5jeeaYN
+       QthaiJNj1GXmY8ul9MRY4a59lD9OVbRDROb1vy+/gEqS4sZC85VegC/SXje8EYTJ2XQWe4Lu
+       vsXKp12bXgKbxnB7ZEujL+ZpCXLbDW4RZPAhS0nKcp1R+FU75NS5XPcCj77Je+tIpmJ1aa+V
+       JWupDIZOOe8dWbIHKJwgIMY1cxY8s4+ycO8KXgm6fk87/l0Q5NWgk1DRdjyDrHb/BfVtKDV1
+       llv2AAAAAElFTkSuQmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$h$</svg:title>
+    </draw:frame><text:s/></text:p>
+   <table:table table:name="Таблица8" table:style-name="Таблица8">
+    <table:table-column table:style-name="Таблица8.A"/>
+    <table:table-column table:style-name="Таблица8.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение14" text:anchor-type="as-char" svg:width="0.407cm" svg:height="0.413cm" draw:z-index="0"><draw:image xlink:href="ltransform/img14.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABUUlEQVR4nK2TIY6EQBBFV4xa
+          DAlqBAlH4AgoNEdAj+IIewQUmiOgV3EEjkCCQJFgwDLzxE96oSCI7YR0d1X141d19WPbtq//
+          GA/L2DRN5vv+3Pd9lCRJG0VR33VdXNd1XpZlcQvEAb6fz2CfZVkDeJ5nH/htRXEMp4vbtk1Q
+          AgA7e0BAicF3CcrzvEYNgaSiA4DYAyM9KTZBKEGBDrMHzBoAdtXvVmrMAPkoNmqYsQNCDT9R
+          7AGEg5tScXVDrCk6a2Yg2p8q2gfsbZb/ACJoWRbPCrSG53kL6k3QOI7PdV2/p2kKwjAcgiCY
+          SGUYhnAPStP011TEDakBtadOgKuqenH91JBiq59MEINgNSOHUFMURYkPu9b43aY89JHek3pK
+          1y6/VLhqzBqhgrUaUD7s+2dxCnIDUaY0lJar7hLkvnSgOghEaZ0p+wNyFbgD4JUaxhuQUhKz
+          HJdTAQAAAABJRU5ErkJggg==
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle h = h_0 + h_1 \cdot (T^{**} - T)^\alpha$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица8.A1" office:value-type="string">
+      <text:p text:style-name="P4">(8)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">коэффициент <draw:frame draw:style-name="fr1" draw:name="Изображение15" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img15.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>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
+       J/wHjET311kUTjEAAAAASUVORK5CYII=
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\pdv{h}{T}$</svg:title>
+    </draw:frame><text:s/>начинает давать вклад в производную. Это обеспечивает большую нелинейность НЖК, причем многие нелинейные явления удается наблюдать в маломощных полях, что удобно для лабораторных исследований. </text:p>
+   <text:p text:style-name="Heading_20_1"><text:bookmark text:name="SECTION00030000000000000000"/>Эксперимент </text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="SECTION00031000000000000000"/>Зависимость мощности пучка от тока накачки </text:h>
+   <text:p text:style-name="Text_20_body">Была получена зависимость мощностей трёх пучков - опорного, сигнального и обращённого от тока накачки диодного лазера. При превышении током накачки порогового значения начинается лазерная генерация, и выходная мощность лазера начинает линейно зависеть от тока накачки. </text:p>
+   <text:p text:style-name="P7">В нашем случае можно считать ток и мощность пучка накачки линейно связанными. </text:p>
+   <text:p text:style-name="P2"><text:bookmark text:name="fig:1"/><text:bookmark text:name="173"/></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="Strong_20_Emphasis">Рис. 1:</text:span> Мощность опорного пучка, сигнального и обращённого</text:p>
+   <table:table table:name="Таблица9" table:style-name="Таблица9">
+    <table:table-column table:style-name="Таблица9.A"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица9.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><draw:frame draw:style-name="fr1" draw:name="Изображение16" text:anchor-type="as-char" svg:width="0.132cm" svg:height="0.083cm" draw:z-index="0"><draw:image xlink:href="ltransform/img16.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAI0lEQVR4nGP5//8/AzbAAmMs
+          WLAgAUQnJCQsQJHAqQOmEgYANkQIzjXB4G8AAAAASUVORK5CYII=
+         </office:binary-data>
+        </draw:image>
+        <svg:title>\includegraphics{fig/fig}</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Heading_20_1"><text:bookmark text:name="SECTION00040000000000000000"/>Задания </text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="SECTION00041000000000000000"/>Время релаксации </text:h>
+   <text:p text:style-name="Text_20_body">Рассчитаем теоретически время релаксации показателя преломления в пропускающей решетке по формуле </text:p>
+   <table:table table:name="Таблица10" table:style-name="Таблица10">
+    <table:table-column table:style-name="Таблица10.A"/>
+    <table:table-column table:style-name="Таблица10.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица10.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение17" text:anchor-type="as-char" svg:width="1.774cm" svg:height="0.337cm" draw:z-index="0"><draw:image xlink:href="ltransform/img17.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAE0AAAAPCAYAAAChmULXAAAB9ElEQVR4nO2W/W2DMBDF+0cG
+          YIMwAhvACIxANmCDNhuwQRmhI8AGjEA3YIO0v6ovurgOsQkVapUnWZjDHM/vPszudDo9PRCH
+          3dYE/gLKsnz7RKn7h2g30HVdMY5jam2bigahaZoSIumzM3efheDlG9ZGplifSZJMt/wgFuvc
+          tZuJ1jRNPQxDlqbpaIVp27Zic3VdN2yceVVVbYhP/DGOx+OzFY0gYLf+JCJ21w+cGDzzBW0z
+          0SSKtbEJbCoHNheSEUKWZQPjcDi8WjuBkPD44zsM5kVRdD5fElNZz1Vrz6JhJPpKYW1sSXks
+          BRyIsIgq4vf6dXsSQJRrggEFQHpYHjs5ZRAR0taWA/dzEeEdHymB9+bIuRtRyTLgQeAgH/L+
+          NfR9ny8Vn72RTFzl40s0RJFQVgBKBdKau+UEQvtNCCCFQCLHFcIExq4j+/luaBXs9/t3W0Ex
+          8AXsLBpXlYceci+hfA1T9jlCMSXmW+fLYjjFZA5rXY4xvdLFxUHglqbF0kjFwPYQwZdNseVK
+          e7B+md9T8heiEdVYZ0s/ruNfc0D0aQeUI3P12VCf+rXI87ynrOGGYPhk6DfC12Zi8CPT7L1N
+          4XvS2YdrxG1vjT25deioDwtw14G1Rg+e/U9jY4r0mg0/BGv8avyWz1nR9K+yxof+Ez4Ati2V
+          y95W2aoAAAAASUVORK5CYII=
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle \tau_{r}=\frac{\tau_{0}}{1+4 \chi k_{x}^{2} \tau_{0}} = 7.11 \cdot 10^{-4}$</svg:title>
+       </draw:frame>    <text:span text:style-name="T1">с</text:span><text:span text:style-name="T1"><draw:frame draw:style-name="fr1" draw:name="Изображение18" text:anchor-type="as-char" svg:width="1.207cm" svg:height="0.349cm" draw:z-index="0"><draw:image xlink:href="ltransform/img18.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+         <draw:image loext:mime-type="image/png">
+          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAADQAAAAPCAYAAACrxeyFAAABZElEQVR4nNWWfQ2DMBDF9wcC
+           JgEJSEACEpCAhElAAhKQgAQkIAEHjB/JW46mZV3WsPESsvRarvfefbBsWZbbFTHP833F7Nqz
+           H8SSBFVV9SLF0/d9hf2yhJqmaSE1TVMOMdlPJcTFbds2BFIUxSi71GW/LMshz/PpnS988DsM
+           Q1nXdSf7aYTGcSwImAAI2tqxQZQ1e6xRvuu62vXDvt5n3yV/GiGbEQuCktoCJDn/WHHk0woh
+           ZHYTBxzQ5ajEYxVNDYK3hFCcWEICWBCbO+lehAiaRoMQqlEeITKcsY3ogpqO6QMfeO/It4V6
+           z2JXcihFMBDhMAR9jkL2FCBjsRUR9R2CFBlwa9MiZYYoLetLky7mXR+8Q+FdylNmSGWuPkL1
+           mP4JYUeI3rFDISU0hu1YViYhczSqP8FuyuEYhbgUx/aD9S0IPDSGU07RjRCNqP9ErLmYUmDt
+           fiP+HRsht8RQ0zcSr4AnSkYLqXJoi8gAAAAASUVORK5CYII=
+          </office:binary-data>
+         </draw:image>
+         <svg:title>$\displaystyle .$</svg:title>
+        </draw:frame></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица10.A1" office:value-type="string">
+      <text:p text:style-name="P4">(9)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">где <draw:frame draw:style-name="fr1" draw:name="Изображение19" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img19.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAYAAACUwi84AAAAhUlEQVR4nGP5//8/Az7AAmMs
+       WLAgAURv2LAhoAEIDAwMLsAVHDhwwOHBgwcKIAkFBYUHEyZMKIBpACtwcHA4ANMBUghShGGF
+       gIDAByAQAJkG042iACQJkgDhCxcuGKC4ASQZEBCwAWRVQUHBBJAVKApAAORAGBvDDSD7Qbrx
+       hgPBgKKdAgAwjENyAl6rwgAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\tau_0 = 16\cdot10^{-4}$</svg:title>
+    </draw:frame><text:s/>c, <draw:frame draw:style-name="fr1" draw:name="Изображение20" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img20.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAEgAAAASCAYAAAD4+JjWAAAC3UlEQVR4nO2XrW8iQRjG26RB
+       HIacOEdCZR0ahSkGAwkOAYQEzX9A+x+gmzTHiXOXHObMYVCncUhI6hAEUwSG9tf0Ie9O9oNt
+       u0vFvclkZ3Zn533meT/mnYv9fn/2X4Ll4tQANptNbjabFZfLZaFWq41zudzmFDjAQKPfbrdH
+       en9ygobDYf/mWSCqXC5PBTJNQTcYxuNxDSMFEiRwxWJxlha4QqGw5InnAJQ+3jQajdp2HhtI
+       CgO6RIowSA4E8WE6nZYBh1WTAuOKgKG73+8PhYN3eBTgeX/MWhiY9eJ6IZ6DAaTXyoEgWRBQ
+       cRb/CFEOEhFsEiPhyfSP9Wi88S2epn1DlA0vxBNismJcBe8RyMFLiP2bV4EsJW8whRmNeUrs
+       PFknLgatjy6XYA9BAEMJgOljEZfRjxZIQCfglI/QjV7G9P3+AyP/Ca9ap9P5/ly6nNs1RBo6
+       /NIH8xRm7il6IEiWUiaPspwVrAg4N8FJUBrkmX4GsHqDDARO1mSuNsVcJXeFm7yTd/V6/bcf
+       QYRwUBh7CJJrM47jqmEEREmv17tbLBaXUfOy2ewjpGjM5iEEvGF5Sl4ZJs1m8+dqtfpm300m
+       k2ueHoIAIDdULpD7A4QGENezeB918gUlz0ql8ne9Xn+lv91uvxBypVLpnzsvk8nsXJ3M5Ylx
+       4ni8K9Vq9c98Pr+in8/nH+w3zzGvmGYMWSrc8CYaJPjlBP55a53SaDR+2bFCJCr36ZRTYvar
+       wINC3pXdbpfpdrv3OhSssV8IYtPaoEgRWYxFHu56jMu+R1TJRhGkekfYIAtyVTvZqpxN0waD
+       wa1OSrsW35TQ3Tz1QpC7cZtPWAzlOlFoSdZKMoxO0aB5fjnSJdUSEYZZXovOVqv1w36LvIvZ
+       UyKNQhKrQwxWTLOi10ns6jyKIJ5p3M+UA+S1SeuTiBx7YdW3k9/mJbqgyoKqaZIuVBF06hTH
+       MJ+SIIWVxmleecJO4CepnXJYydrefAAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\chi = 10^{-7}$</svg:title>
+    </draw:frame><text:s/>м<draw:frame draw:style-name="fr1" draw:name="Изображение21" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img21.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAFYAAAANCAYAAAAzH5nDAAACUUlEQVR4nO2X4W3CMBCF+4P/
+       dINmg2YDMkJGCBOUERghTNCMkBHSDcIGsAGdgPJVfeg4TBKHoKpSnxTFPjvnd8/nM8yOx+PT
+       P6bH7LcJ/HVUVVUkSbJrmiYriqKijf1f2DtwOByeERZR0zRtV6tVSZ+xC2Hbtk1RnfejiNR1
+       nbOGtWNj7IRDnue1HYMoYxDPsqzx/hgnoFge6xPKslx5HhqHB3z6/KjN3N1ul6h/ISzkeSDr
+       g78XIu1904eUNhSRFDA2+uLlN5x5ZEuMsMxHgM1m82aFxY5/BEcwZR/tUKJx5HngpdgsrkoB
+       O/UIYZWJPkvoi7g2FZvIYuOtIybwTV9GhaCsXy6X79ZuY1b26RT5k+L582a+6isICssCchpL
+       PBbb7fbV2xANYVlfGeZLBLZb2TIGunw8jy5RAbzgwMaQ7bIHLy+chWohICCfPRaIEVvzLBCL
+       TZVwcFHNI3jmwM32p8B+v3/pEzEEnS5itol4JSyiddVZ0t3uzNSwF4CI6k0AcBtykhCJYH2m
+       38J8Pv8cQfdca739QljdzgjHZF83AOO+TlrEZqwPiMwJ/QLQ2uKoEsGz/oGdC8dQwLfAmvi0
+       695TCs/CUk9wbG9kpbj9oK+YxwQDyCjWVglYLBYfWsPWT8awWf8SN3SCdOkNhUqOXS/Wh8VM
+       ThDQ1iyEJehQ9o2pRdo42mwevhGJNsKoZmpjWYO+MhQeVlTVel1wQznxHT7ZQMsD//CQv65T
+       OQTfwsqZHWCxKf8o6Ldo6ARYMe1YVy2HX9cl2vUdHGJ4jMEXMFovMlmz1/wAAAAASUVORK5C
+       YII=
+      </office:binary-data>
+     </draw:image>
+     <svg:title>${^2}$</svg:title>
+    </draw:frame>/c, <draw:frame draw:style-name="fr1" draw:name="Изображение22" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img22.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAADgAAAAPCAYAAACx+QwLAAAB/UlEQVR4nN2W4W2DQAxG+yMD
+       ZAQ2gBEYoSN0BEbICIzACIzACLABI7BBmif1IXO9UysVNVIsoSS2z/5sf2dyud/vb68sl1Sx
+       bdt1XdeqaZr5v8EMw/DxkOHMmIcC53luxnF8b9t24vMh4xlJiGPDrtfr1nVdn/pQnD40eJqm
+       Fl8w3R6CnubrBz70+GDDHzsP+dTvBWIgMY6COqvAyIrShLBru31JVVUrhfR934ENHZgYAIXj
+       jx3MPNjJpf5QYJwYh3EsAXHKKY2xASo9g69TKDXAjuuf8yvpI7WJY0PBshcIAKeHMSZUsBuM
+       T88ZlMJz9MPGWeJG+ijpdRAsjeYME+S3PuZSj0+a81CgDoLmcI5K+OlDNyOtAF2aEr523/sd
+       i6T4NJ+0S6+JewLwObakshcI3QRYKhCdCVwcct3kuSQ5kBZM7hz1bAqM4LGx5DSvd/HHAj1o
+       cr6XKMrjFKCIy0AapvcSn0gzJN7vtJmywinHxtMo4pAP27IsNfoc1sMWjaMWdK4bANMmRd1c
+       BIxFKMSOE8Q3TixdMIJTF6edYqnrerHw6IfNRu8FEtAlUeJ2SjX8pE5JOOMq9z0Wwae5+B0p
+       idg4mukVcZujZ+IuSRehZ3eK5rbfWVJ6n/qyTvWl14H3L2eLzIr6b3/VXk2eVmBpe54tTyvw
+       t++xv8onuUsg2HMMza4AAAAASUVORK5CYII=
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$k_x = \frac{2\pi}{\lambda}\sin\frac{\theta}{2}$</svg:title>
+    </draw:frame>, <draw:frame draw:style-name="fr1" draw:name="Изображение23" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img23.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAHMAAAAQCAYAAAAlI0ASAAACyklEQVR4nO2Y7XHiMBCG8yMF
+       UAIdQAdAB5RAB0cJKQE6SAl0EK4DrgNKoAMuDzNPZqORjWzE2HeTd4ZBH2vtat/dlezX6/X6
+       8oP/A69DG/CDdpzP5+nhcFhfLpfJ2ycYo+/ccrk8zufzE/1RkImhp9NpjmFD2yKOx+NyDPZM
+       p9MzZGGPY7vdbmt/s9m8f2JDexRkEnEYaN8ojGM1gAMImu12u4u6iPTJZHKhv16vD/zjQPRH
+       2VKwJs+aScKMYh496uy6Bwi2T3baHpxMokoHAoxls/v9/ldNMnEszsOhkSDa6GEOW5jX0fy6
+       ZijylsZIJkHEnHtCh+Uzt0+CKfqlCTxve3Ay2aBlAnQtbZITIzQHHIsuswNY3s0QIh7H6kRK
+       GL8uNikb92Q/kqNuSEszuA3Ix73G7P5GJhtNowQjYlrXRIyqvsC2PqUQRCIBRKxWq48ocy9I
+       uuiKZGI3weXlpQnoN9sln3XwHeNx719kQpoCEqqgC9FuSn3mjTCiOReFaYQz9migsLl7Dhkj
+       2HdJMCOXZi68GAjRfzcyWRQyvSEhFMsEiznPP2SlSj1vbHsW2S+p/6VgvbaMIWj63ERzzm0K
+       NnyQc3QpsP+RQM7t70ZmmjUoMtpj9iADKTky4/PMuyZljGdqluqc/j5IbcLm2Wz2J441BY2X
+       pr66WLdmgIMbmdEor+rxGh0faCoNqWHpu1EOaQXoA6tKn3NTB7MGPvCVISeTooRI16UdA9z5
+       p5Cp4z1oH3VwKXRgHNOOxWLxG4LYcFvJRJZSd49Mjwl0Im+ZJMN8z4xfWfpC+2mzFr71Ruzr
+       Cf+136HB1wWoyRkYYZamN7IaYD1vaerrct55s7sn52tGOt52gWq6H7ShzX59/KwvS0XvmRJK
+       1tY6rwTrxcvSWECAPGO/z0QRmbWzMQXlKGbnGJB+9vsXMPgXIMB5NSYiwRg+snfFX4wUilzb
+       AyUQAAAAAElFTkSuQmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\lambda = 1064 \cdot 10^{-9}$</svg:title>
+    </draw:frame><text:s/>м, <draw:frame draw:style-name="fr1" draw:name="Изображение24" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img24.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>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
+       Mb25fwHfBPx5yJT1yAAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\theta \approx 5/330$</svg:title>
+    </draw:frame><text:s/>рад. </text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="SECTION00042000000000000000"/>Коэффициент отражения </text:h>
+   <text:p text:style-name="Text_20_body">Считая <draw:frame draw:style-name="fr1" draw:name="Изображение25" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img25.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAACkAAAALCAYAAADiBKTLAAABNUlEQVR4nM2VbQ2DMBCG9wMB
+       lYAEJCChEiqhEiYBCUhAAhKQUAl1wPYsecmt4WMEfuwSAhzXu+c+Wqp5nh//LtWaMqVUP9/i
+       vR+47gg0DIPn3rbt6JzLW3bTNDV8r+s67ULKwBpekRBC33VdJLh9tjYUZhzHtu/7QIEOIREt
+       uApIcC5BNU0z4TfG2Fk7oEgA29LHFyQtyTk7FtxVRXxaX0BSyRJyTxZIsgOQxZSb2SmNyXKv
+       uqqG1SnpUvcr4ALJIsBUat7XNgzBsDsT4A75QLKjaIOUzCMtKY2Bx3bPYdkB/GpnIxTi7Cgt
+       7Rakhpw7UBb+SNaOFqBt9fGrLinhoxiVHJGtMiYYDsqWo1+b1SNw5pxZ5tmOEh1DByR63nUU
+       Sb9AIra9dx3gEruZrG+7w4Ha+nm8AF+05eqZzqOHAAAAAElFTkSuQmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\sigma_0 \sim (1\divisionsymbol 10) \cdot 10^{-10}$</svg:title>
+    </draw:frame><text:s/>Сименс/м (что в СГС порядка единицы), рассчитываем интенсивность из известных экспериментальных условий как </text:p>
+   <table:table table:name="Таблица11" table:style-name="Таблица11">
+    <table:table-column table:style-name="Таблица11.A"/>
+    <table:table-column table:style-name="Таблица11.B"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица11.A1" office:value-type="string">
+      <text:p text:style-name="P3"><draw:frame draw:style-name="fr1" draw:name="Изображение26" text:anchor-type="as-char" svg:width="0.249cm" svg:height="0.25cm" draw:z-index="0"><draw:image xlink:href="ltransform/img26.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAmElEQVR4nI2QWw0DIRBF+7EC
+          kLAOwEGRgAQkIAUJlYAEcEAdIAEHbE4Tmsku6XYSPuZy5s5jG2M8/o1NJr13lXO2McbgnEvW
+          2myMqUtYKdV5FIUQ4k9nAmccb8eY8Mp1CZdSnikldwvjqrV+M7fU2QHtAsvtCbrMHS6w9/41
+          89bajsYZvzBt5JwAtVZzLv7AzIMoP2h9vsoBqOJV6pjcQTIAAAAASUVORK5CYII=
+         </office:binary-data>
+        </draw:image>
+        <svg:title>$\displaystyle I_0 = \frac{2 P_\text{оп}}{S_\text{пучка}}, \qq{где} S_\text{пучка}=\pi\qty(\frac{d_\text{пучка}}{2})^2.$</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Таблица11.A1" office:value-type="string">
+      <text:p text:style-name="P4">(10)</text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="P7">Здесь <draw:frame draw:style-name="fr1" draw:name="Изображение27" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img27.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAFoAAAAQCAYAAACWa2gIAAACoUlEQVR4nO2Y4XGCQBCF44wF
+       kAowFUgHUkJKSAl2kNgBJVACJWgHpgK1Au3A+P14M+u6ICjoD7MzDnBwe2/fvl0Ox8fj8e3f
+       hrfxswEMZdvtdrJcLnOd/5zsmXg6ET2ZTLaAHghLr1ZV1WeWZes8z5fz+byAdM79c2VZfp2s
+       HBrPGdHKPCABBzCBW6/XGUT3DYD1CBZS+HVVHpghCpx2LmNJkhw4Bzvx1M3XOTjwQVL6jvWM
+       aJwD+HA4JD5gkd/n4hjrLBaLb8gQMV0MzEqSHZcvKTYijphOVuma58AzhKAuWkddiUHEEH2O
+       9abT6e8tJFsfETYpk3hQrieQ+0VRzO11FHsfFhIdKXeoPnZvcFQfRxKFQvGHSrkmDo48wz0/
+       LyJeFc05c6iIurW5hwC1fpMQL3r0brdLfRlitsS8oQoFHFld6WJ1iW1rIgcMrCPl8hMJkfm2
+       IV/4wQccNM2HZOZ7ASpJEG8FdEY0jmez2cpP5NhU2vcQtVqtZl41UZmPRqPjZrP5iFQIboKS
+       itusyxxPktojZLNOk0JJhNqO3TRovjYW8nFGdFTGZP5a27jWu+sUTWBpmu7sPQBG1bHf79+j
+       ZIPZKhGimd8kDCnWY0Gh+IEDruWHI2LAN+PMjd4L+FUVEJP28dgF0fblAMlt9s23viR9YgmI
+       YHw/xSLibLVpjx+1BG+ReIQFX1pLz3FPW09VjBUHOPj5SrTcjTVAxlhACmFM402gbzVAa0un
+       ROlF1taH9tCcQxJY22zNmBclTknHp00YRyla8yDWrs25yJY/i2WsgUd/ovaxnt0/t41B/dyP
+       297u1c49xvTRxo9r/xxYbCIuiH4lQ6ldkqyvSlXLta2ovqwh2rbhlyO661efKqZtcqKvVOzl
+       iH7EH0iR/QF/MYd67RnzAwAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$d=0.1$</svg:title>
+    </draw:frame><text:s/>см, <draw:frame draw:style-name="fr1" draw:name="Изображение28" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img28.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAFAAAAAQCAYAAACBSfjBAAACgElEQVR4nO2Y722DMBDFW4kB
+       6AQlE4QRGIERGIEROgIjZISMwAh0gpIJwgZpfx9edD05xpCI5kNPQoBj+969++Mj2eVyefmX
+       9ZLNTei6ri2KYuz7vvr4kTzPpw1w/RJ0T9OUj+NYoL9pmsPWGG5JlECAA7iu6yMGQCYkboTt
+       KofDoUE3WMqyHDyBwzCUODnkXEgHO+t453lNEMiB2kcSJbCqqp6FAukXbyUiT1isYFQI2/F4
+       rLlwPmvtHm3bdil6cRwBQyDhIPSwB8+aM5vCLGAhz49OHRmYgoE7xmCU/e3WGMTacYIBkv3c
+       mGAve4kw3rnsHrMEQh5g8CB3y/49wr5cKQQigPaRo5poxxR5croVdC3JIiIP4u0Y+iwPVwIB
+       SHizQCHLM0p5hkB5IBVADJhqKXf21EFlDQcP+hlDvzzPPO4Q5Q2EZOaG9C7FHiJQ/GivTEDk
+       HREG02I7pkSHS2yOP3gAodpif9NhxbOteaGDQ7ptBEL06XR6vxXVS7MHfD7lbUlDMhmkkwol
+       SxSx4aNO5ntbJGzY7/effgwHQwb2eWcTILvd7uunH371+6WUrEzAQ+mQKnMEzv0uoKSfSonS
+       dImETmr1jSLRr0Hv+Xx+8+NK37m2J7MLUo93L2sj0LZIGKIs4EqJRj9HGeRrF06JBUdIl/Yg
+       sGz5AGOwjWFwyz5PxRiAtsnlHYPVtMbqK7XOk8N6dQyKbLUwS/Cxt9Lejvu6fSXwL74wrE55
+       3B4AZEQshSDHH3KPqsnKBD/u8cz2gVsJYDHcpqE6gdg6SE5tyO8VfZnYsachUJ9b1EP1oSmR
+       BOFExdpv3FSxXYodfxoCJWvq8NruYYnojww//g20KFYaLAT8fwAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$L$</svg:title>
+    </draw:frame><text:s/>приведено к безразмерному виду преобразованием <draw:frame draw:style-name="fr1" draw:name="Изображение29" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img29.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAAtUlEQVR4nJWQYQ3DIBSEt6QC
+       KgEJOAAJ4AAJSJgEJOBgSAAHSJiEOej4ftAA7Z9d0pBc3927e9txHI9/sK1ErVXGGJ0Q4sPX
+       IKSUldc5FycBgzlnHULw+75/O48wpWSmDTh77wNO4zAwxiS2TAKGXw3rcBdMHXAtpSgi3RXV
+       WueLoGcdI8LzspUEp6DnGwGHgbX23U7/nDbgoJQqXGhcT0T40egszdkoTQTc1ygXAT+5/13R
+       ET/Sbm6IL4RPMgAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$L&apos; = L\cdot k^2 / k_z \varepsilon_0$</svg:title>
+    </draw:frame>, и для разных входных мощностей (токов накачки) посчитаны значения коэффициента отражения <draw:frame draw:style-name="fr1" draw:name="Изображение30" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img30.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAFoAAAARCAYAAABdN7utAAACiElEQVR4nO2XvXHCQBCFrRnG
+       kQM7IYUS6AA6MLkTCiDAFdhUgAIXQEIuOsAdUAJOnaCAiATzBY9Z35wkc0hInmFnbtD97b17
+       +27vaB0Oh7ubVW+tugE03dI0fdxut09HQUahPtrt9veN6AJ7P1oURYc4jiehPhaLxUtjiWaD
+       q9VqsNvtHnz9o9FoPh6PP6rEgJqPloJlNpu9XuKrkUQnSTIcDAarbre72e/3974xvV5vXTWO
+       +Xw+mkwmseoEHvKHw2GSNQcBgH2z2XTBqLGNJHq9XvdQUZ0YIBSyUDR18PBdRDT9Eood1zii
+       UQ1KrhsHOdmqWamMkjePOZDstv8imkgoihyBciCfZxxXCt/aGMoAF4Ug5CmqTAsJOBh9KeZE
+       tI6GjSJHmAl8+6KEU5HiM9ffX0DadbQ2AgAf/QjARzQ46M/yzRw3r+NfCrTCwtclQlOOZk2w
+       09bSBqfT6dvRphwZLcKC1PmFdBcoEQ/JpWwQv+5c1rFtANb61MHgCzgWQgw4mKeidtYJJVrz
+       4Ga5XD7r5XIiut/vf9pNEgldBEyi7hJdpGjMFwg2orQg4uzFI6OudCFMWSckRNH4VREW/ISm
+       JuZRbJD0+mhpQXeTkOG2uRaqaB1V1CqifQq3gVAdIiDcJeOSo07wdNkpPWWNVTqTSZDgtC8N
+       xnU6nS8F90Q0ztkEk0S867RMYz3lXdZSsWMItiWUb5vayjL8Qjb7z0pN9OmSAzcY4MmmVMsh
+       7crP2OkydBXCYKUFnFfx5JKSAOpLCW7bJX+Diwwc+IcgX7+bx+08fedd/pnvaOUuoqJL40zs
+       hYZPSPalrmubL4eXabl/WKp+S0sB13oXF2Gpjehr2Dnv7P9sP+cKKUSUrHaZAAAAAElFTkSu
+       QmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$r^2 = \tg^2(G\cdot l)$</svg:title>
+    </draw:frame>. В <draw:frame draw:style-name="fr1" draw:name="Изображение31" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img31.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAD8AAAAQCAYAAAChpac8AAACMUlEQVR4nN2X0W2DQBBE88F/
+       0gGUQAdQAiVQAiW4BEqgBEogHVAC6QAqcPwijbVeHRgCOFJWQgfnu9mZ27kDR9fr9e2/xziO
+       H7cYfX/0B1xeHnmed0mSDGma9sMwJE3TlPQfJr7rupyWBKwySUh4FP6euNyiKIq27/vU9u8W
+       DzC2AhyxdV1XiOf+TPFt2xaIIb/64EE/efmtqqqafrjRUiD1EbvEl2XZYCla9UGG6ssJZ4Sw
+       fQ5EIl7Ow97ixj287Phfi1fFrXAFCxI6YEKBAC6q5bHmtg74XjhjaZVXLhQmi8Jl5zyIR4z2
+       BwO5D4lgHMBz1bVWXArmY08I0iKKubSq3FosiVcg3vKDs5/zIB4SJESwrYgOCmzDxfM0Te/e
+       Roq1VYeQ9iB5WHTy63RmgdfghIL5cNRzqFB38QiCtIirEpARCS0O91mWfYaSkoR5awhKLBf3
+       4OvaihXiEcfx19KYyA5WIiqCjaistZ2sZd3gQ2P4Xc4BT66xY3UyW/vDgYUAZ4t4sL2155wZ
+       FK9XAoL1ygpNgvDFhERz2UNLgiymxxFBWhYDHtp6S/sdbBUJHMazUPTrbWNfa4viAWEyBJik
+       U9aetnYxGEMiBOmdbqukSjBHFfbJQ5UB41m1JZDc8NZ25Zlc5F2DE1mw0IeJtbj/LWRlS1CV
+       oQp7Di8fS3aWe9fEXfzcJKwn8VsEIFjfAkcKPzJ+xIc+VGw8Ozh8qOLYbuvcV8Yp/+q0/87A
+       PjK+AYz2FHzZ/E/MAAAAAElFTkSuQmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$G$</svg:title>
+    </draw:frame><text:s/>взяты значения <draw:frame draw:style-name="fr1" draw:name="Изображение32" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img32.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAYAAACUwi84AAAAgklEQVR4nL2QQQ3AIBAE+0AA
+       EpCABCQgAQlIqAQkVEIlVAISkHAOKPOAhBD67CRHCAx7F1St9fhC9U2MMXnv74YPIVzW2jwJ
+       4Jx7GixuEVJKkQsR0aQtLYBXtECk3RByzraUYjikzsYkAEKX++UQiNZaC/EM2gecEowxhdr+
+       w44fhBfK/0LSW+upIgAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\epsilon_0 = \sqrt{n} = \sqrt{1.5}$</svg:title>
+    </draw:frame>, <draw:frame draw:style-name="fr1" draw:name="Изображение33" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img33.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAE0AAAAUCAYAAADIiLCPAAADP0lEQVR4nO2YvcpaQRCGA4qV
+       kpRiY7o0QoQ06WKKNFaWll6CVyAhV+AlWH6lVRoL/TobQSGNnWkkpWKqQDA+xQtzxl09JxpR
+       yAsHz9mf2Zl3fnbX/H6/f/Ef2ZCPdWw2m1cHbGzbZDJp8LtarV4fsGo0GpNTwkMyHg3YjK08
+       aguS1u/3u51OZxAS8PkA3uk/R9pgMOgw7lGJQ3e4wA5Ia7VaQ9qPSGMQZIQMrdfrc0XbfD6v
+       63c4HLa0iPUI35CMzKtbdANAEjzwkF1qT5BGOkFKt9vtewG0IQRCGSNSEabo89CCEAvhV7Qn
+       CHRhLfSRUwWiRbpgRxp9GIetBIUCAyRIo0Mh6EGfIgbliCIU0AOpoehUiN8q2nDqYrF4a9tY
+       W+klwtAZOyAzJEOlh1+CCftkQ4I0W7M85BlFI4vxaDxtoRqHspbwtECejEVhm/axyLVjLFjf
+       2qV0Y3zMXvpZl7msZfXP+4GxhRGuEJUAvMY7RIY2jnPGxIAeSgneWQNDtangrCxOeH5+/uB1
+       OGWrdMY+dMBJUdJ8HbCAbe9dDAjVvxDOKWmBExQBzEFhq3jaNS2yOg4oEHzJSpC23W5f+onT
+       6fR9s9n8mmWxXq/3xRsGEWnn4xw8rHqDLFJfpJ1ybgjVavX7Nc+MCdIQ7gfUarVvo9Ho02w2
+       e8f3er2uYMButyvRVqlU1svl8g2/pVJpR3+73X7ycrLsnkSlUpRvok5nPr5VT9PKU+FXzYXA
+       S3bzBGmEsE+jYrH4M5fL/S4UCr9QWqlji6jmyaByufzDys0SZYKtkaxjSYzVM5HNuz3Jqx5D
+       msi7JOoSpJG7CPX5L0/pfKYjhhS14/0OCmFZ60lovHbRNPPH4/FHrz96oz/6XHr8OSINr/jC
+       p5O9ijLEyDAUseO9wXjYRo0iBiMUoad23izwd8S0fVlxlJ48tmjq2qQFdX7RnNgNQvDbNVBN
+       0SHyWqTdCkd3TwigLokIRQTvEGC/1RYrqrZ4C8zVVSfLMeSecESaDpEyCELsdUPFX/c83c9C
+       t4HQ2U5zlaaxE/k9I/jXkC7a+g7dR5XKsbsqCBEGwYq+vzmk3gOif0L+K0AaZD5iWgo3J+0R
+       09HjD2qoy2qHCpm1AAAAAElFTkSuQmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\rho_0 C_p\approx 10^7$</svg:title>
+    </draw:frame><text:s/>эрг/см<draw:frame draw:style-name="fr1" draw:name="Изображение34" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img34.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAA8AAAANCAYAAAB2HjRBAAAAZ0lEQVR4nGP5//8/A7mAhRhF
+       Dx48UNiwYUOAgYHBBQcHhwMkaVZQUHgA0kiWzbgAXPOBAwcc0CUFBAQ+YLMRQzOyX0i2GR/4
+       8OGDAMxlIJeAXESSZpjLQGySNINCG4TRxakT2kNLMwCB1ScSYayOnQAAAABJRU5ErkJggg==
+      </office:binary-data>
+     </draw:image>
+     <svg:title>${}^3$</svg:title>
+    </draw:frame>К, <draw:frame draw:style-name="fr1" draw:name="Изображение35" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img35.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+     <draw:image loext:mime-type="image/png">
+      <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAADAAAAANCAYAAADv5u30AAABdElEQVR4nNWV4W2DMBCF84MB
+       GIENYIMwAiOUDRghI7BBGYERYAO6ASOwAc0n9VkXC0xKE1CfZNkm57v3no8QzfN8+c+IziYQ
+       wjRNcdu2BaOqqppn4zgmjNsd7A8RcPvBb8/FcTxpzvO803PWTdN83NEcIqDruvwvZy15wM1o
+       HekBilijdhiGjENFUbR7Cwvk7fv+ChFyZ1k2UK+u6ypJklG1mJduiXP2Oe1EDtx3AgiixyhA
+       f5FY1+crJ44YiuqMTe6LplBZlp/WRQjJIPX2EnnqUFN9z5p6MtsJIJGc8PvNAoI4J6EUZ+AI
+       5+3VhoBBimVmvxSn9lnj4wTY4FBhiMtxiiIG5+QM+9B5vXgIxgD2mMc+JCCU80HAFgG/PZ4h
+       DdI0/VI8M+SZ15y3nNRia3ACILeVcC9wmiE3EQI5CeEW+V31aUfaldtiJn6NmxOgt/odoEVs
+       m3Br9q+Vtf1Y+fEhnPIlhqgc17/MXgNPEfCK74vwDf/NNYOWgg9uAAAAAElFTkSuQmCC
+      </office:binary-data>
+     </draw:image>
+     <svg:title>$\qty(\pdv{\varepsilon}{T})_p\approx 10^{-3}$</svg:title>
+    </draw:frame><text:s/>K<draw:frame draw:style-name="fr1" draw:name="Изображение36" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img36.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+     <svg:title>${}^{-1}$</svg:title>
+    </draw:frame>. Полученные значения предоставлены на графике ниже. </text:p>
+   <text:p text:style-name="P2"><text:bookmark text:name="fig:2"/><text:bookmark text:name="215"/></text:p>
+   <text:p text:style-name="P9"><text:span text:style-name="Strong_20_Emphasis">Рис. 2:</text:span> Коэффициент отражения</text:p>
+   <table:table table:name="Таблица12" table:style-name="Таблица12">
+    <table:table-column table:style-name="Таблица12.A"/>
+    <table:table-row>
+     <table:table-cell table:style-name="Таблица12.A1" office:value-type="string">
+      <text:p text:style-name="Table_20_Contents"><draw:frame draw:style-name="fr1" draw:name="Изображение37" text:anchor-type="as-char" svg:width="12.328cm" svg:height="7.876cm" draw:z-index="0"><draw:image xlink:href="ltransform/img37.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad" loext:mime-type="image/svg+xml"/>
+        <draw:image loext:mime-type="image/png">
+         <office:binary-data>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
+         </office:binary-data>
+        </draw:image>
+        <svg:title>\includegraphics{fig/fig2}</svg:title>
+       </draw:frame></text:p>
+     </table:table-cell>
+    </table:table-row>
+   </table:table>
+   <text:p text:style-name="Text_20_body">Как видно, теоретическое значение коэффициента растет с ростом накачки, что отвечает связи <draw:frame draw:style-name="fr1" draw:name="Изображение38" text:anchor-type="as-char" svg:width="1.997cm" svg:height="0.998cm" draw:z-index="0"><draw:image xlink:href="ltransform/img38.svg" xlink:type="simple" xlink:show="embed" xlink:actuate="onLoad"/>
+     <svg:title>$r \sim \tg P$</svg:title>
+    </draw:frame>. Экспериментальные значения меньше. Во-первых, теоретическая формула получена в ряде приближений, например, слабого поглощения. В реальности поглощение может привести к уменьшению мощности сигнального пучка, и, соответственно, коэффициента ОВФ-отражения. Кроме того, могут быть экспериментальные особенности установки: например, возникновение при нагреве активной среды лазера тепловой линзы что приводит к появлению паразитных мод в лазере, увеличению угла расходимости лазернго пучка. Недостаточная термостабилизация элементов установки может привести к разбросу характеристик, таких как длина генерируемой волны, мощность пучка - и в итоге частично подавлять ОВФ-эффект. </text:p>
+   <text:p text:style-name="Heading_20_1"><text:bookmark text:name="SECTION00050000000000000000"/>Заключение </text:p>
+   <text:p text:style-name="Text_20_body">В настоящей работе мы изучили метод преобразования излучения четырехволновым взаимодействием, рассчитали коэффициент отражения ОВФ-зеркала, получили зависимости мощностей трех пучков от тока накачки. Качественно наблюдается рост коэффициента ОВФ-отражения при росте мощности накачки, хотя количественно в теории обращённый фронт мог бы быть более мощным: но за счет существенной неидеальности лабораторных условий, приводящих к возникновению побочных эффектов - таких, как искажение модового состава лазерного излучения, увеличение угла пучка излучения и так далее - практическое значение меньше теоретического. </text:p>
+   <text:h text:style-name="Heading_20_2" text:outline-level="2"><text:bookmark text:name="SECTION00060000000000000000"/>Литература </text:h>
+   <text:p text:style-name="List_20_Heading"><text:bookmark text:name="met"/>1 </text:p>
+   <text:p text:style-name="P1">Миловский Н. Д., Мартынова О. В., Зиновьев А. П. Преобразование лазерного излучения методами нелинейной оптики: методическое пособие. – Нижний Новгород: Нижегородский государственный университет им. Н.И. Лобачевского, 2014. – 38 с. </text:p>
+   <text:p text:style-name="P7"/>
+   <text:p text:style-name="Horizontal_20_Line"/>
+  </office:text>
+ </office:body>
+</office:document>
